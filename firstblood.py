@@ -4,7 +4,6 @@
 import re 
 import urllib
 
-r1 = r"\d{3,4}-?\d{8}"
 url = "http://image.baidu.com/search/index?tn=baiduimage&ct=201326592&lm=-1&cl=2&ie=gbk&word=%B1%DA%D6%BD&fr=ala&ala=1&pos=0&alatpl=wallpaper&oriquery=%E5%A3%81%E7%BA%B8#z=0&pn=&ic=0&st=-1&face=0&s=0&lm=-1"
 def get_html(url):
     page = urllib.urlopen(url)
